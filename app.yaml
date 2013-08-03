@@ -1,0 +1,17 @@
+application: iena-korakuen
+version: 1
+runtime: python
+api_version: 1
+
+handlers:    
+- url: /
+  static_files: public_html/index.html
+  upload: public_html/index.html
+
+- url: (.*)/
+  static_files: public_html/\1/index.html
+  upload: public_html/(.*)/index.html
+
+- url: /(.*)
+  static_files: public_html/\1
+  upload: public_html/(.*)
