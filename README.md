@@ -4,8 +4,9 @@ notice: This repository uses Japanese.
 
 概要
 ======
-当リポジトリでは、パン屋IENAのHPを作成しています
-  
+当リポジトリでは、パン屋IENAのHPを作成しています  
+公開URL：  
+ [http://iena-korakuen.appspot.com/](http://iena-korakuen.appspot.com/)  
   
 断り
 ======
